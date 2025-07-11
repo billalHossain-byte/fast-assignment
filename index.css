@@ -1,0 +1,269 @@
+
+
+
+/* *body{
+    margin: 50px;
+    padding: 50px; */
+
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 600px;
+    width: 100%;
+    background-position:0%;
+}
+
+.inter-uniquifier {
+  font-family:"Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:<weight>;
+  font-style:normal;
+}
+
+.logo-head{
+    display: flex;
+    justify-content: space-between;
+    height: 152px;
+    gap: auto;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo-title{
+    color: rgba(78, 71, 255, 1);
+    font-size: 50px;
+    font-weight: bold;
+}
+.singup-button{
+    background-color:rgba(78, 71, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 18px 36px;
+    border-radius: 10px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+.bannar-content{
+    width: 950px;
+    /* height: 237px; */
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.stay-focused-button{
+    /* display: flex; */
+    background-color:rgba(78, 71, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section  */
+.section-01{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 50;
+    margin-left: 141px;
+    margin-right: 159px;
+    padding-top: 100px;
+    
+}
+.acton-title{
+    font-weight: bold;
+    font-size: 42px;
+    color:#252432;
+}
+.section-2{
+    display:flex;
+    justify-content:center;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 141px;
+    margin-right: 159px;
+    background-color: rgba(14, 7, 232, 0.100);
+
+}
+
+.user-section{
+        text-align: center;
+        margin-top: 0%;
+        padding-top: 0%;
+} 
+.action-discription{
+    font-size: 30px;
+    line-height: 30px;
+}
+.btn-primary{
+    background-color:rgba(78, 71, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+    width: 229px;
+    align-items: center;
+    justify-content: center;
+}
+.action-profile{
+    border-radius: 45px;
+    width: 403px;
+    height: 328px;
+}
+
+.element{
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+    justify-items: center;
+    align-items: center;
+}
+
+/* .share-css */
+
+.for-heading{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    width: 162px;
+    height: 20px;
+    padding:3px;
+}
+.for-paragraph{
+    font-size: 20px;
+    width: 146px;
+    height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.What-our-users-say{
+    margin-top: 100px;
+    text-align:center;
+    font-weight: bold;
+    font-size: 42px;
+    color: rgba(37, 36, 50, 1);
+}
+
+.Card-container{
+    width: 300px;
+    border: 2px solid salmon;
+    padding:10px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 05px 05px 05px rgb(65, 63, 63);
+    margin-top: 50px;
+
+}
+.card-section{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.star{
+    width: 20px;
+    height: 20px;
+    gap: 4px;
+}
+
+.comment{
+    height: 29px;
+    width: 210px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.Studio-Vertex{
+    color: rgba(30, 30, 30, 1);
+    margin-right: 10px;
+    padding-top: 0%;
+}
+
+.avatar-pc{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+
+.review-card{
+      display:flex;
+      gap: 30px;
+}
+.p-h-tag{
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+
+.from{
+    padding: 150px;
+    display: flex;
+    gap: 100px;
+}
+
+.input-form input[type=text]{
+    height: 34px;
+    border-radius: 5px;
+    background-color: wheat;
+    /* display: block; */
+    width: 100%;
+}
+
+/* footer section */
+footer{
+    padding: 150px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-cloum {
+    width: 50%;
+}
+footer input[type="text"]{
+    height: 40px;
+    width: 100%;
+    gap: 10px;
+    border-radius: 05px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5;)
+    display:block;
+    padding:10px 20px;
+    margin-bottom: 24px;
+    /* border:none; */
+    border-color: rgba(214, 221, 237, 1)
+}
+
+textarea{
+    width: 497px;
+    height: 135px;
+}
+
+.get-button{
+    width: 498px;
+    height: 62px;
+
+}
+
+.section-title{
+
+}
