@@ -1,22 +1,33 @@
 
 
 
-/* *body{
-    margin: 50px;
-    padding: 50px; */
-
-header{
-    background-image: url('../Assets/Hero-bg.png');
-    height: 600px;
-    width: 100%;
-    background-position:0%;
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
-.inter-uniquifier {
-  font-family:"Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:<weight>;
-  font-style:normal;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* background-color: bisque; */
+    
+}
+
+body{
+    background-color: #F5F8FF;
+}
+
+header{
+    background-image: url('./Assets/Hero-bg.png');
+    height: 700px;
+    width: 100%;
+    background-position:0%;
+    justify-content: center;
 }
 
 .logo-head{
@@ -27,6 +38,7 @@ header{
     align-items: center;
     margin-left: 150px;
     margin-right: 150px;
+    padding: 10px;
 }
 .logo-title{
     color: rgba(78, 71, 255, 1);
@@ -42,16 +54,14 @@ header{
     padding: 18px 36px;
     border-radius: 10px;
 }
-
 .banner{
     display: flex;
     justify-content: center;
     align-items:center ;
-    
+    padding-top: 05%;
 }
 .bannar-content{
     width: 950px;
-    /* height: 237px; */
     font-size: 65px;
     font-weight: bold;
     text-align: center;
@@ -60,6 +70,7 @@ header{
 .button{
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 
 }
 .stay-focused-button{
@@ -79,38 +90,53 @@ header{
 /* section  */
 .section-01{
     display: flex;
-    justify-content:space-around;
+    /* justify-content:space-around; */
     align-items: center;
+    justify-content: space-between;
     gap: 50;
     margin-left: 141px;
     margin-right: 159px;
     padding-top: 100px;
-    
 }
 .acton-title{
     font-weight: bold;
     font-size: 42px;
     color:#252432;
+    padding: 10px;
+    width: 517px;
+    height: 49px;
 }
 .section-2{
     display:flex;
-    justify-content:center;
-    margin-top: 100px;
-    text-align: center;
-    margin-left: 141px;
-    margin-right: 159px;
+    justify-content:space-around;
+    align-items: center;
+    width: 1140px;
+    height: 360px;
     background-color: rgba(14, 7, 232, 0.100);
-
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
+.element{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
 .user-section{
         text-align: center;
         margin-top: 0%;
         padding-top: 0%;
 } 
+
+
 .action-discription{
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 24px;
+    padding: 36px 12px;
+    height:60px;
+    width: 517px;
 }
 .btn-primary{
     background-color:rgba(78, 71, 255, 1);
@@ -122,12 +148,18 @@ header{
     height: 48px;
     width: 229px;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    padding: 10px;
+    margin-top: 60px;
+
+
+
 }
 .action-profile{
     border-radius: 45px;
     width: 403px;
     height: 328px;
+    /* padding: 878px 195px; */
 }
 
 .element{
@@ -150,10 +182,13 @@ header{
 }
 .for-paragraph{
     font-size: 20px;
-    width: 146px;
+    width: 160px;
     height: 24px;
     color: rgba(0, 0, 0, 0.5);
+    padding-top: 70px;
 }
+
+/* .What-our-users-say */
 
 .What-our-users-say{
     margin-top: 100px;
@@ -162,16 +197,20 @@ header{
     font-size: 42px;
     color: rgba(37, 36, 50, 1);
 }
-
 .Card-container{
-    width: 300px;
-    border: 2px solid salmon;
-    padding:10px;
-    text-align: justify;
+    width: 367px;
+    height: 244px;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     box-shadow: 05px 05px 05px rgb(65, 63, 63);
     margin-top: 50px;
 
+}
+.review-card{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    padding: 10px;
 }
 .card-section{
     margin-left: 150px;
@@ -181,13 +220,17 @@ header{
 .star{
     width: 20px;
     height: 20px;
-    gap: 4px;
 }
 
 .comment{
     height: 29px;
     width: 210px;
     color: rgba(30, 30, 30, 1);
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
 }
 
 .Studio-Vertex{
@@ -202,68 +245,173 @@ header{
     width: 40px;
 }
 
-.review-card{
-      display:flex;
-      gap: 30px;
-}
 .p-h-tag{
     display: flex;
-    align-items: baseline;
-    align-content: center;
     margin-left: 10px;
     padding-left: 10px;
+    align-items: center;
+    gap: 8px;
 }
 
+/* from section */
 
-.from{
-    padding: 150px;
+.form-culomn form{
     display: flex;
+    justify-content: space-between;
     gap: 100px;
+    align-items: center;
+
+}
+    
+form .login-form .title{
+    font-size: 98px;
+    font-weight: 800px;
+}
+form .login-form{
+    width: px;
 }
 
-.input-form input[type=text]{
-    height: 34px;
-    border-radius: 5px;
-    background-color: wheat;
-    /* display: block; */
-    width: 100%;
-}
-
-/* footer section */
-footer{
-    padding: 150px 230px;
+.form-culomn form .label-input{
     display: flex;
-    gap: 100px;
+    flex-direction: column;
+    width: 550px;
+    gap: 20px;
+
 }
 
-.footer-cloum {
-    width: 50%;
-}
-footer input[type="text"]{
-    height: 40px;
+.form-culomn form .label-input input{
     width: 100%;
-    gap: 10px;
-    border-radius: 05px;
+    padding: 24px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
     background-color: white;
-    color: rgba(0, 0, 0, 0.5;)
-    display:block;
-    padding:10px 20px;
-    margin-bottom: 24px;
-    /* border:none; */
-    border-color: rgba(214, 221, 237, 1)
 }
 
-textarea{
-    width: 497px;
-    height: 135px;
+.form-culomn form .label-input textarea{
+    width: 100%;
+    padding: 24px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
 }
 
-.get-button{
-    width: 498px;
-    height: 62px;
+.form-culomn form button{
+    width: 100%;
+    padding: 18px 36px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+   
+}
+    .form-culomn{
+        width: 1050px;
+        margin: 70px auto;
+    }
+   
 
+.footer-logo{
+    display: flex;
+    font-size: 80px;
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    color:rgba(78, 71, 255, 1);
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-.section-title{
-
+.footer-description{
+    display: flex;
+    height: 48px;
+    width: 531;
+    margin-top: 20px;
+    font-size: 32px;
+    justify-content:end;
+    text-align:center;
+    color:rgba(137, 135, 161, 1);
+    margin-left: 150px;
+    margin-right: 150px;
 }
+
+nav ul{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 20px;   
+}
+
+ul li{
+    list-style: none;
+    font-size: 16px;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1); 
+    font-size: 25px;
+}
+
+/* post card */
+.post{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(14, 7, 232, 0.100);
+    align-items: center;
+    margin-top: 50px;
+    height: 700px;
+    gap: 20px;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.post-card{
+    justify-items: center;
+    gap: 20px;
+}
+
+.post-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+img{
+    border-radius: 50px;
+}
+
+.button-for-post{
+    padding-top: 15px;  
+    padding-bottom: 20px; 
+}
+
+.post-button{
+    width: 195px;
+    height: 48px;
+    background-color:rgba(78, 71, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1) ;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+
+/* @media screen and (max-width: 992px){ */
+
+
+    
+
+
