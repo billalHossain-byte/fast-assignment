@@ -200,17 +200,18 @@ header{
 .Card-container{
     width: 367px;
     height: 244px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color:rgba(255, 255, 255, 1);
     border-radius: 10px;
-    box-shadow: 05px 05px 05px rgb(65, 63, 63);
+    /* box-shadow: 05px 05px 05px 3px rgb(65, 63, 63); */
     margin-top: 50px;
+    padding: 10px;
 
 }
 .review-card{
     display: flex;
     justify-content:space-between;
     gap: 20px;
-    padding: 10px;
+    padding: px;
 }
 .card-section{
     margin-left: 150px;
@@ -302,7 +303,7 @@ form .login-form{
 .form-culomn form button{
     width: 100%;
     padding: 18px 36px;
-    background-color: blue;
+    background-color: rgba(78, 71, 255, 1);
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -366,7 +367,7 @@ a{
 .post{
     display: flex;
     justify-content: center;
-    background-color: rgba(14, 7, 232, 0.100);
+    background-color: rgba(255, 255, 255, 1);
     align-items: center;
     margin-top: 50px;
     height: 700px;
